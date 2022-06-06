@@ -1,0 +1,12 @@
+package br.com.scheiner.restapi.controller.dto;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class InvestmentResponse {
+	
+	private String id;
+	
+}
